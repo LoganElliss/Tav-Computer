@@ -1,0 +1,25 @@
+﻿<Window x:Class="_219016ComputerParts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_219016ComputerParts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Orientation="Vertical">
+    <StackPanel Orientation="Horizontal">
+        <Button x:Name="btnCPU" Click="btnComputerPart_Click">CPU</Button>
+        <Button x:Name="btnMotherboard" Click="btnComputerPart_Click">Motherboard</Button>
+        <Button x:Name="btnCase" Click="btnComputerPart_Click">Case</Button>
+        <Button x:Name="btnGraphicsCard" Click="btnComputerPart_Click">GraphicsCard</Button>
+        <Button x:Name="btnOpticalDrive" Click="btnComputerPart_Click">Opticaldrive</Button>
+        <Button x:Name="btnRAM" Click="btnComputerPart_Click">RAM</Button>
+        <Button x:Name="btnHardDrive" Click="btnComputerPart_Click">HardDrive</Button>
+        <Button x:Name="btnFinalStatement" Click="btnComputerPart_Click">FinalStatement</Button>
+            
+    </StackPanel>
+        <Label x:Name="lblPartName">CPU</Label>
+        <Image x:Name="imgPicture" Source="https://www.extremetech.com/wp-content/uploads/2017/05/core-i9-640x353.jpg" Height="100"></Image>
+        <TextBlock x:Name="txtPartInfo">Information about my part</TextBlock>
+    </StackPanel>
+</Window>
